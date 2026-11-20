@@ -20,7 +20,7 @@ model = joblib.load(MODEL_PATH)
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to the naveen Performance Prediction API!"}
+    return {"message": "Welcome to the hari Performance Prediction API!"}
 
 
 @app.post("/predict")
